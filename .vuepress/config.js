@@ -54,7 +54,7 @@ module.exports = {
     [
       "dynamic-title",
       {
-        showIcon: "/myicon.ico",
+        showIcon: "/favicon.ico",
         showText: "(/≧▽≦/)咦！回来了！",
         hideIcon: "/failure.ico",
         hideText: "(●—●)喔哟，别走啊！",
@@ -95,12 +95,12 @@ module.exports = {
         }
       }
     ],
-    [
-      '@vuepress/google-analytics',
-      {
-        ga: 'UA-149716079-2'
-      }
-    ],
+    // [
+    //   '@vuepress/google-analytics',
+    //   {
+    //     ga: 'UA-149716079-2'
+    //   }
+    // ],
     [
       '@vuepress/plugin-register-components',
       {
